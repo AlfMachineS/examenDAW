@@ -1,0 +1,6 @@
+AuthType Basic
+AuthName "Usuario y contraseña"
+AuthUserFile /etc/apache2/seguridad/.usuarios
+AuthGroupFile /etc/apache2/seguridad/.grupos
+Require group monitores
+
